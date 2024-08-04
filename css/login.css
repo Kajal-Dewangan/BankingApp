@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Start navbar */
+.nav{
+    background-color:#6e00a8;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    max-width: 100%;
+}
+ 
+.nav h1{
+    border: 3px solid white;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.nav-info{
+    
+    display: flex;
+    width: 31vw;
+    justify-content: space-between;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.nav-info label{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-info p{
+    
+    width: 13vw;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.nav-info p span{
+    text-decoration: underline;
+}
+
+.nav-info select{
+    height: 29px;
+}
+
+
+/* .nav-info button{
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 3px solid yellow;
+    background-color: transparent;
+    font-size: larger;
+    cursor: pointer;
+    color: yellow;
+
+}
+
+.nav-info button:hover{
+    background-color: yellow;
+    color: black;
+    /* animation-delay: 2s; */
+    /* animation-duration: 2s; */
+    /* transition-duration: 1s; */
+/* } */ 
+
+
+/* strat login sing container */
+
+.login-sign-container{
+    background: aquamarine;
+    width: 87vw;
+    height: 82vh;
+    display: flex;
+    margin-left: 90px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.login-container{
+    background: white;
+    border: 2px solid black;
+    width: 24vw;
+    height: 47vh;
+    margin-top: 15vh;
+
+}
+
+.login-container input{
+    display: flex;
+    margin-top: 2vh;
+    margin-left: 11vh;
+    border-radius: 7px;
+    width: 12vw;
+    height: 29px;
+    color: black;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+}
+
+.login-container button{
+    height: 30px;
+    background: aqua;
+    margin-left: 8vw;
+    margin-top: 20px;
+    width: 86px;
+    border-radius: 9px
+}
+
+.login-container h2{
+    
+
+    margin-left: 16px;
+    /* margin-top: 23px; */
+    /* background: aqua; */
+    margin-top: 48px;
+
+}
+
+
+.sighup-container{
+    background-color: white;
+    border: 2px solid black;
+    width: 24vw;
+    height: 31vh;
+}
+
+
+.sighup-container h2{
+    margin-top: 78px;
+    margin-left: 20px;
+}
+
+.sighup-container p{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+
+.sighup-container button{
+    margin-top: 47px;
+    margin-left: 146px;
+    width: 81px;
+    height: 30px;
+    border-radius: 9px;
+    background-color: aqua;
+}
